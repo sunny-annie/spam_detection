@@ -2,7 +2,7 @@ import streamlit as st
 from main import predict
 
 
-st.title("Классификация текста: Спам или не спам?")
+st.title("Спам или не спам?")
 text = st.text_area("Введите текст для проверки:", height=150)
 
 if st.button("Проверить"):
